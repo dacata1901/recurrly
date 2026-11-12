@@ -5,24 +5,18 @@
 @import "nativewind/theme";
 
 @theme {
-  /* Mystic Midnight Color Palette */
-  --color-background: #100e20;
-  --color-foreground: #f3ecff;
-  --color-card: #1c1930;
-  --color-muted: #29243d;
-  --color-muted-foreground: #a49ab9;
-  --color-primary: #a78bfa;
-  --color-accent: #d5a6ff;
-  --color-border: #39334f;
-  --color-success: #56c6b1;
-  --color-destructive: #fb7185;
-  --color-subscription: #8e83d9;
+  --color-background: #fff9e3;
+  --color-foreground: #081126;
+  --color-card: #fff8e7;
+  --color-muted: #f6eecf;
+  --color-muted-foreground: rgba(0, 0, 0, 0.6);
+  --color-primary: #081126;
+  --color-accent: #ea7a53;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-success: #16a34a;
+  --color-destructive: #dc2626;
+  --color-subscription: #8fd1bd;
 
-  /* Additional semantic colors */
-  --color-warning: #f5b85c;
-  --color-info: #72b9f5;
-
-  /* Spacing */
   --spacing-0: 0px;
   --spacing-1: 4px;
   --spacing-2: 8px;
@@ -43,7 +37,6 @@
   --spacing-24: 96px;
   --spacing-30: 120px;
 
-  /* Typography */
   --font-sans: sans-regular;
   --font-sans-light: sans-light;
   --font-sans-medium: sans-medium;
